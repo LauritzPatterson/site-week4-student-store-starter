@@ -2,11 +2,34 @@
 
 ## Unit Assignment: Student Store
 
+
+Part1 POSTMAN TESTING 
 <div>
-    <a href="https://www.loom.com/share/01079431306142ec825a662d06e3d50f">
+    <a href="https://www.loom.com/share/9d366e3b7c43461fa4d7864cbea1fb86">
     </a>
-    <a href="https://www.loom.com/share/01079431306142ec825a662d06e3d50f">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/01079431306142ec825a662d06e3d50f-b6af4c11db35fae5-full-play.gif">
+    <a href="https://www.loom.com/share/9d366e3b7c43461fa4d7864cbea1fb86">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9d366e3b7c43461fa4d7864cbea1fb86-808b82d91b94b875-full-play.gif">
+    </a>
+  </div>
+
+
+Part 2 Prisma TESTING
+
+<div>
+    <a href="https://www.loom.com/share/c95ae655fe31483fae134080c56c08fc">
+    </a>
+    <a href="https://www.loom.com/share/c95ae655fe31483fae134080c56c08fc">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c95ae655fe31483fae134080c56c08fc-c2d85db9da2c5283-full-play.gif">
+    </a>
+  </div>
+
+Part 3 FRONTEND TESTING 
+
+<div>
+    <a href="https://www.loom.com/share/01a9a490384b449fa0b1effe58e0bb56">
+    </a>
+    <a href="https://www.loom.com/share/01a9a490384b449fa0b1effe58e0bb56">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/01a9a490384b449fa0b1effe58e0bb56-38e4704c75659888-full-play.gif">
     </a>
   </div>
 
@@ -22,7 +45,7 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
   - [x ]  Use Prisma to define models for `products`, `orders`, and `order_items`.
   - [ x]  **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of your `products`, `orders`, and `order_items` tables. 
 - [ x] **Products Model**
-  - [xx ] Develop a products model to represent individual items available in the store. 
+  - [x ] Develop a products model to represent individual items available in the store. 
   - [x ] This model should at minimum include the attributes:
     - [x ] `id`
     - [ x] `name`
@@ -35,26 +58,26 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
   - [ x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of all attributes (table columns) in your Products Model.
 - [x ] **Orders Model**
   - [x ] Develop a model to manage orders. 
-  - [ ] This model should at minimum include the attributes:
-    - [ ] `order_id`
-    - [ ] `customer_id`
-    - [ ] `total_price`
-    - [ ] `status`
-    - [ ] `created_at`
-  - [ ] Implement methods for CRUD operations on orders.
-  - [ ] Ensure transaction handling such that when an order is deleted, any `order_items` that reference that order are also deleted. 
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of all attributes (table columns) in your Order Model.
+  - [ x] This model should at minimum include the attributes:
+    - [ x] `order_id`
+    - [ x] `customer_id`
+    - [ x] `total_price`
+    - [x ] `status`
+    - [x ] `created_at`
+  - [ x] Implement methods for CRUD operations on orders.
+  - [x ] Ensure transaction handling such that when an order is deleted, any `order_items` that reference that order are also deleted. 
+  - [x ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of all attributes (table columns) in your Order Model.
 
-- [ ] **Order Items Model**
-  - [ ] Develop a model to represent the items within an order. 
-  - [ ] This model should at minimum include the attributes:
-    - [ ] `order_item_id`
-    - [ ] `order_id`
-    - [ ] `product_id`
-    - [ ] `quantity`
-    - [ ] `price`
-  - [ ] Implement methods for fetching and creating order items.  
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of all attributes (table columns) in your Order Items Model.
+- [x ] **Order Items Model**
+  - [ x] Develop a model to represent the items within an order. 
+  - [x ] This model should at minimum include the attributes:
+    - [ x] `order_item_id`
+    - [ x] `order_id`
+    - [ x] `product_id`
+    - [x ] `quantity`
+    - [x ] `price`
+  - [x ] Implement methods for fetching and creating order items.  
+  - [ x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS**: Use Prisma Studio to demonstrate the creation of all attributes (table columns) in your Order Items Model.
 - [x ] **API Endpoints**
   - [ x] Application supports the following **Product Endpoints**:
     - [ x] `GET /products`: Fetch a list of all products.
@@ -114,17 +137,21 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 
 ### Reflection
 
-* Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+* Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?\
+  
+Yes the topics helped me to complete the project
+
+
+
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would have added stretch features and deployed it 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+i broke some thinfs on my site last minnute. i shouldnt be coding so close to the deadline of presentation . 
 
 ### Open-source libraries used
 
